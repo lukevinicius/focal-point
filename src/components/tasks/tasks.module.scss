@@ -1,0 +1,60 @@
+.container {
+  max-width: 450px;
+  margin-inline: auto;
+
+  .card {
+    border: 1px solid #EAECF0;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-block: 1.5rem;
+
+    .title {
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+      color: #000;
+      opacity: 0.54;
+    }
+
+    .taskContainer {
+      
+
+      .task {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-block: 1rem;
+        border: 1px dashed #D7DDE9;
+        padding: 1rem;
+        border-radius: 0.5rem;
+
+        &:hover {
+          border: 1px solid #F7F9FD;
+          cursor: pointer;
+          background-color: #F7F9FD;
+        }
+
+        .taskTitle {
+          width: 80%;
+          text-align: start;
+          font-weight: 400;
+          font-size: 1rem;
+          color: #000;
+          margin-left: 0.5rem;
+        }
+
+        .taskTitleCompleted {
+          width: 80%;
+          text-align: start;
+          text-decoration: line-through;
+          color: #000;
+          opacity: 0.54;
+          margin-left: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+
+

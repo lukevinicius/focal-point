@@ -1,0 +1,39 @@
+.header {
+  margin-inline: auto;
+  max-width: 1328px;
+  @media screen and (min-width: 768px) {
+    height: 3.75rem;
+  }
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #D7DDE9;
+
+  .container {
+    // if mobile screen size dont active flex
+    @media screen and (min-width: 768px) {
+      height: 2.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .mainText {
+    font-weight: 500;
+    flex: 1;
+    @media screen and (min-width: 768px) {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    color: #000;
+  }
+
+  .dateText {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+    opacity: 0.54;
+  }
+}
+
+
+
