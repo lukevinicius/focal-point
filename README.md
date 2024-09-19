@@ -1,8 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+   <img src="./src/assets/logo.png" alt="focal-point" width="300"/>
+</p>
 
-## Getting Started
+<p align="center">	
+   <a href="https://linkedin.com/in/lukevinicius/">
+      <img alt="Lucasvinicius" src="https://img.shields.io/badge/-lukevinicius-5965e0?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/lukevinicius/focal-point?color=%235963C5" />
+  <img alt="lastcommit" src="https://img.shields.io/github/last-commit/lukevinicius/focal-point?color=%235761C3" />
+  <img alt="License" src="https://img.shields.io/github/license/lukevinicius/focal-point?color=%235E69D7" />
+  <img alt="Issues" src="https://img.shields.io/github/issues/lukevinicius/focal-point?color=%235965E0">
+  <a href="mailto:lucasviniciusaalves@gmail.com">
+   <img alt="Email" src="https://img.shields.io/badge/-lucasviniciusaalves%40gmail.com-%23525DCB" />
+  </a>
+</p>
 
-First, run the development server:
+<p align="center">
+  This project was developed as part of the selection process for the Junior Developer position at Legaplan. The goal is to create a task manager, following the layout and specifications provided through a Figma project, made available by the company.
+  🧝🏼‍♂️ The task manager allows the creation, viewing, updating and deleting of tasks, offering a user-friendly and intuitive interface, according to the design guidelines established in the Figma project. Project developed for the Legaplan  | <a href="https://www.legaplan.com.br">@legaplan</a>
+</p>
+
+<div align="center">
+  <sub> Made with 💖 by
+    <a href="https://github.com/lukevinicius">Lucas vinicius.
+  </sub>
+</div>
+
+# 📌 Contents
+
+* [Screenshots](#camera-screenshot) 
+* [Technologies](#rocket-technologies) 
+* [How to Run](#computer-how-to-run)
+* [Issues](#bug-issues)
+* [Contributing](#sparkles-issues)
+* [License](#page_facing_up-license)
+
+# :camera: Screenshots
+<div align="center">
+   <img src="./.github/screen1.png" width="400px">
+   <img src="./.github/screen2.png" width="400px">
+   <img src="./.github/screen3.png" width="400px">
+   <img src="./.github/screen4.png" width="400px">
+</div>
+
+# :rocket: Technologies
+This project was made using the follow technologies:
+
+* [Typescript](https://www.typescriptlang.org/)      
+* [React](https://reactjs.org/)  
+* [NextJS](https://nextjs.org/)  
+* [SCSS](https://sass-lang.com/)
+
+
+# :computer: How to run
+
+```bash
+# Clone Repository
+$ git clone https://github.com/lukevinicius/focal-point.git
+```
 
 ```bash
 npm run dev
@@ -14,23 +69,22 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to http://localhost:3000/ to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# :bug: Issues
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a <a href="https://github.com/lukevinicius/focal-point/issues">new issue report</a>, it will be an honor to be able to help you solve and further improve our application.
 
-## Learn More
+# :sparkles: Contributing
 
-To learn more about Next.js, take a look at the following resources:
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# :page_facing_up: License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is under the [MIT license](./LICENSE).
+Made with 💖 by [Lucas vinicius](https://linkedin.com/in/lukevinicius/). 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you! 🌠
